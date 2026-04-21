@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Forever?</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Background animations -->
+    <div class="background-container" id="bg-container">
+        <!-- Hearts will be generated via JS -->
+    </div>
+
+    <!-- Page 1: Proposal -->
+    <div id="page1" class="page active">
+        <div class="content-wrapper glow-box">
+            <h1 class="proposal-text glow">Will you be with me forever? 💖</h1>
+            <div class="button-container">
+                <button id="yesBtn" class="btn yes-btn">YES! 🥰</button>
+                <button id="noBtn" class="btn no-btn">NO 💔</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page 2: Why Me -->
+    <div id="page2" class="page hidden" style="display: none;">
+        <div class="content-wrapper glow-box">
+            <h1 class="glow romantic-header">Why Me? ✨</h1>
+            <ul class="reasons-list">
+                <li class="reason">❤️ I will take good care of you</li>
+                <li class="reason">😊 I will always make you smile</li>
+                <li class="reason">😎 Handsome and charming</li>
+                <li class="reason">💖 Always there for you</li>
+            </ul>
+            <div class="avatar-container">
+                <!-- Using a cute animated Lottie-like SVG or CSS animated SVG -->
+                <img src="https://api.dicebear.com/7.x/miniavs/svg?seed=Love&backgroundColor=linearGradient&backgroundType=gradientLinear"
+                    alt="Avatar" class="avatar bouncing">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
